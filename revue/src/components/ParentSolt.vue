@@ -8,6 +8,8 @@
       <template slot="item" scope="props">
         <li>{{ props.text }}</li>
       </template>
+      <p slot="a">AA</p>
+      <p slot="b">BB</p>
     </child>
   </div>
 </template>
